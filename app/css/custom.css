@@ -1,0 +1,4 @@
+/* ======== Custom Class ======== */
+.navBtn {
+    @apply pr-5 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none duration-300;
+}

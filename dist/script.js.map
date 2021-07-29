@@ -1,0 +1,1 @@
+{"version":3,"sources":["script.js"],"names":["hamburger","document","getElementById","mobileMenu","addEventListener","classList","toggle"],"mappings":"AACA,IAAIA,UAAYC,SAASC,eAAe,gBAEpCC,WAAaF,SAASC,eAAe,cAEzCF,UAAUI,iBAAiB,SAAS,WAChCD,WAAWE,UAAUC,OAAO","file":"script.js"}

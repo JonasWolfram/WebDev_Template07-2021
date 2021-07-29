@@ -1,0 +1,51 @@
+@import 'vars';
+@import 'mixins';
+@import 'tailwind';
+
+
+* {
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Work Sans', sans-serif; 
+}
+
+body { 
+    margin: 0;
+    padding: 0;
+    max-height: 100vh;
+    width: 100vw;
+    /*background: url('/img/img/photo-1579547621244-c07e55dcb856.jpeg') no-repeat center center fixed;*/
+    background-size: cover;
+}
+
+.active {
+    display: block;
+} 
+
+
+/*
+ *  Überschriften
+ */
+@each $header, $size in (h1: 32px, h2: 28px, h3: 24px, h4: 20px){
+    #{$header} {
+        font-size: $size;
+    } 
+   }
+   @each $header, $size, $color in (h1, 32px, #333), (h2, 28px, #444), (h3, 24px, #555) {
+       #{$header} {
+           font-size: $size;
+           color: $color;
+       } 
+   }
+
+/*
+ *  Navigation
+ */
+ 
+.rnd1 {
+    background: #dfcea1;
+}
+
+.rnd2 {
+    background: rgb(159, 85, 85);;
+}

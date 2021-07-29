@@ -1,0 +1,2 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Noto+Sans+TC&family=Work+Sans&display=swap");@tailwind base;@tailwind components;@tailwind utilities;*{font-family:Mulish,sans-serif;font-family:Noto Sans TC,sans-serif;font-family:Work Sans,sans-serif}body{background-size:cover;margin:0;max-height:100vh;padding:0;width:100vw}.active{display:block}h4{font-size:20px}h1{color:#333;font-size:32px}h2{color:#444;font-size:28px}h3{color:#555;font-size:24px}.rnd1{background:#dfcea1}.rnd2{background:#9f5555}
+/*# sourceMappingURL=style.css.map */
